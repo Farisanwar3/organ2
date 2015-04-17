@@ -285,7 +285,7 @@
 			//this.livesText.setText("Balloons hit by car : "+this.lives);
 			this.score -= 75;
 			this.scoreText.setText("Score : "+this.score);
-			if(this.numFakes > this.rnd.integerInRange(240,600))
+			if(this.numFakes > this.rnd.integerInRange(240,300))
 			{
 				
 				var text = "- Game Over!!!! Your Score is "+this.score;
@@ -323,7 +323,7 @@
 			this.scoreText.setText("Score : "+this.score);
 			//if(this.lives > 30)
 				//this.game.state.start('menu');
-			if(this.numOrgans >= 300){
+			if(this.numOrgans >= this.rnd.integerInRange(212,300)){
 				this.game.state.start('menu');
 			}
 		},
