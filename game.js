@@ -149,7 +149,7 @@
 			else
 			{
 			//  Otherwise turn off velocity because we're close enough to the pointer
-			this.sprite.body.velocity.set(0);
+				this.sprite.body.velocity.set(0);
 			}
 			this.game.input.keyboard.addKeyCapture(Phaser.Keyboard.DOWN);
 
