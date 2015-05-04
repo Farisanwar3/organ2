@@ -152,7 +152,7 @@
 				this.sprite.body.velocity.set(0);
 			}
 			this.game.input.keyboard.addKeyCapture(Phaser.Keyboard.DOWN);
-
+                        this.game.input.keyboard.addKeyCapture(Phaser.Keyboard.SPACEBAR);
 			var curTime = this.game.time.now;
 
 			if(this.game.input.keyboard.isDown(Phaser.Keyboard.SPACEBAR))
