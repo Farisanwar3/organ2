@@ -139,6 +139,7 @@
 			{
 				this.sprite.body.velocity.y = +this.speed;
 			}
+			this.game.input.keyboard.addKeyCapture(Phaser.Keyboard.DOWN);
 			//  If the sprite is > 8px away from the pointer then let's move to it
 			//if (this.game.physics.arcade.distanceToPointer(this.sprite, this.game.input.activePointer) > 8)
 			//{
